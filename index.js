@@ -16,8 +16,8 @@ function moveToNextSlide() {
 
 }
 
-prevButton.addEventListener("click", moveToPrevSlide())
+prevButton.addEventListener("click", moveToPrevSlide)
 
-nextButton.addEventListener("click", moveToNextSlide())
+nextButton.addEventListener("click", moveToNextSlide)
 
 console.log(slides)
